@@ -3,7 +3,7 @@ import subprocess
 
 app = Flask(__name__)
 
-@app.route('/process', methods=['POST'])
+@app.route('/processPansharp', methods=['POST'])
 def process():
     # Parse JSON data from request
     data = request.json
